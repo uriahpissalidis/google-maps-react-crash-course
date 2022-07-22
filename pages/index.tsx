@@ -3,6 +3,7 @@ import Map from "../components/map";
 
 export default function Home() {
   const { isLoaded } = useLoadScript({
+    //insert your api key here
     googleMapsApiKey: "",
     libraries: ["places"],
   });
